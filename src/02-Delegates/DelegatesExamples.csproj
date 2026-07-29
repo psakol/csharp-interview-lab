@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <!-- Target Framework -->
+    <TargetFramework>net8.0</TargetFramework>
+
+    <!-- Application Type -->
+    <OutputType>Exe</OutputType>
+
+    <!-- C# Language Features -->
+    <LangVersion>12.0</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+
+    <!-- Code Quality -->
+    <AnalysisLevel>latest</AnalysisLevel>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+
+    <!-- Documentation -->
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+
+    <!-- Project Metadata -->
+    <AssemblyName>DelegatesExamples</AssemblyName>
+    <RootNamespace>DelegatesExamples</RootNamespace>
+
+    <!-- Globalization -->
+    <InvariantGlobalization>false</InvariantGlobalization>
+
+  </PropertyGroup>
+
+</Project>
