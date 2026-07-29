@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <!-- Target Framework -->
+    <TargetFramework>net8.0</TargetFramework>
+
+    <!-- C# Settings -->
+    <LangVersion>12.0</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+
+    <!-- Output -->
+    <OutputType>Exe</OutputType>
+
+    <!-- Build Settings -->
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <AnalysisLevel>latest</AnalysisLevel>
+
+    <!-- Project Metadata -->
+    <AssemblyName>AsyncAwaitExamples</AssemblyName>
+    <RootNamespace>AsyncAwaitExamples</RootNamespace>
+
+    <!-- Documentation -->
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+
+    <!-- Modern .NET Features -->
+    <InvariantGlobalization>false</InvariantGlobalization>
+
+  </PropertyGroup>
+
+</Project>
